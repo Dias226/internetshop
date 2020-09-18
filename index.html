@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/fonts.css">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -56,8 +57,9 @@
                 </a>
               </li>
               <li class="user-list__item">
-                <a class="user-list__link" href="#">
+                <a class="user-list__link basket" href="#">
                   <img src="images/basket.svg" alt="Корзина">
+                  <p class="basket__num">1</p>
                 </a>
               </li>
             </ul>
@@ -67,38 +69,82 @@
     </div>
     <div class="header__bottom">
       <div class="container">
-        <div class="header__bottom-inner">
-          <ul class="menu-categories">
-            <li class="menu-categories__item">
-              <a class="menu-categories__link" href="#">Квадроциклы</a>
-            </li>
-            <li class="menu-categories__item">
-              <a class="menu-categories__link" href="#">Катера</a>
-            </li>
-            <li class="menu-categories__item">
-              <a class="menu-categories__link" href="#">Гидроциклы</a>
-            </li>
-            <li class="menu-categories__item">
-              <a class="menu-categories__link" href="#">Лодки</a>
-            </li>
-            <li class="menu-categories__item">
-              <a class="menu-categories__link" href="#">Вездеходы</a>
-            </li>
-            <li class="menu-categories__item">
-              <a class="menu-categories__link" href="#">Снегоходы</a>
-            </li>
-            <li class="menu-categories__item">
-              <a class="menu-categories__link" href="#">Двигатели</a>
-            </li>
-            <li class="menu-categories__item">
-              <a class="menu-categories__link" href="#">Запчасти</a>
-            </li>
-          </ul>
-        </div>
+        <ul class="menu-categories">
+          <li class="menu-categories__item">
+            <a class="menu-categories__link" href="#">Квадроциклы</a>
+          </li>
+          <li class="menu-categories__item">
+            <a class="menu-categories__link" href="#">Катера</a>
+          </li>
+          <li class="menu-categories__item">
+            <a class="menu-categories__link" href="#">Гидроциклы</a>
+          </li>
+          <li class="menu-categories__item">
+            <a class="menu-categories__link" href="#">Лодки</a>
+          </li>
+          <li class="menu-categories__item">
+            <a class="menu-categories__link" href="#">Вездеходы</a>
+          </li>
+          <li class="menu-categories__item">
+            <a class="menu-categories__link" href="#">Снегоходы</a>
+          </li>
+          <li class="menu-categories__item">
+            <a class="menu-categories__link" href="#">Двигатели</a>
+          </li>
+          <li class="menu-categories__item">
+            <a class="menu-categories__link" href="#">Запчасти</a>
+          </li>
+        </ul>
       </div>
     </div>
 
   </header>
+
+  <section class="banner-section">
+    <div class="container">
+      <div class="banner-section__inner">
+        <div class="banner-section__slider">
+          <a class="banner-section__slider-item" href="#">
+            <img class='banner-section__slider-img' src="images/banner-slider.jpg" alt="Товар">
+          </a>
+          <a class="banner-section__slider-item" href="#">
+            <img class='banner-section__slider-img' src="images/banner-slider.jpg" alt="Товар">
+          </a>
+          <a class="banner-section__slider-item" href="#">
+            <img class='banner-section__slider-img' src="images/banner-slider.jpg" alt="Товар">
+          </a>
+          <a class="banner-section__slider-item" href="#">
+            <img class='banner-section__slider-img' src="images/banner-slider.jpg" alt="Товар">
+          </a>
+          <a class="banner-section__slider-item" href="#">
+            <img class='banner-section__slider-img' src="images/banner-slider.jpg" alt="Товар">
+          </a>
+          <a class="banner-section__slider-item" href="#">
+            <img class='banner-section__slider-img' src="images/banner-slider.jpg" alt="Товар">
+          </a>
+        </div>
+        <a class="banner-section__item sale-item" href="#">
+          <div class="sale__item-top">
+            <p class="sale-item__info">
+              Акция
+            </p>
+            <div class="sale-item__price">
+              <div class="price sale-item__price-new">690 000</div>
+              <div class="price sale-item__price-old">986 000</div>
+            </div>
+          </div>
+          <img class="sale-item__img" src="images/content/sale-1.png" alt="Товар">
+          <h5 class="sale-item__title">
+            Лодочный мотор Suzuki DF9.9BRS
+          </h5>
+          <p class="sale-item__footer">
+            Акция действует до
+            <span>31.08.2020</span>
+          </p>
+        </a>
+      </div>
+    </div>
+  </section>
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
